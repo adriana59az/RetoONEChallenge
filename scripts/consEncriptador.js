@@ -18,7 +18,6 @@ const encriptar = () => {
 const desencriptar = () => {
     const text = $input.value;
     $output.innerText = desencriptarText(text);
-    console.log($empty.style.display);
     $empty.style.display = "none";
     $containerOutput.style.display = "flex";
 };
