@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" />
+    <title>Alura ONE Challenge | Encriptar Palabras</title>
+</head>
+
+<body>
+    <div class="app-input">
+        <header>
+            <img src="imagenes/Logo.png" alt="logo de alura" class="logo" />
+            <p>Creado por: <b>Adriana L.</b></p>
+        </header>
+        <section>
+            <textarea class="input" placeholder="Ingrese el texto aquí"></textarea>
+        </section>
+        <footer>
+            <p>Solo letras minúsculas y sin acentos</p>
+            <div>
+                <button class="encr">Encriptar</button>
+                <button class="dese">Desencriptar</button>
+            </div>
+        </footer>
+    </div>
+    <div class="app-output">
+        <div class="empty-output">
+            <img src="imagenes/diamante.png" alt="diamante" title="No hay texto" />
+            <h4>No se encontró ningún mensaje</h4>
+            <p>Ingresa el texto que deseas encriptar o desencriptar.</p>
+        </div>
+        <div class="output">
+            <p class="text-output"></p>
+            <button class="copy">Copiar</button>
+        </div>
+    </div>
+    <script src="scripts/encriptador.js"></script>
+    <script src="scripts/consEncriptador.js"></script>
+</body>
+
+</html>
